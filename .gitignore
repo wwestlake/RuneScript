@@ -1,0 +1,118 @@
+# Ignore build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Ignore NuGet Packages
+*.nupkg
+# Uncomment if you have NuGet Package Restore enabled for all projects.
+# *.nuget/packages/
+
+# Ignore packages folder in root directory of the repository
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+# Uncomment if needed for build process
+#!**/[Pp]ackages/repositories.config
+
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vs/
+.vscode/
+.vscode-test/
+[Tt]humbs.db
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# F# specific ignore patterns
+# =========================
+
+# Ignore FAKE build results
+.fake/
+.fake/.history/
+
+# Paket dependency manager files
+paket-files/
+paket.references
+
+# Ignore F# Interactive temporary files
+*.fsx.lock
+*.fsx.proj
+*.fsi
+*.fsi.lock
+*.dll.lock
+
+# F# Interactive notebook files
+*.ipynb
+
+# =========================
+# C# specific ignore patterns
+# =========================
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore publish directory for ASP.NET Core
+wwwroot/
+app.publish/
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Rider settings
+.idea/
+
+# Other IDE-specific files
+*.ncrunchproject
+*.ncrunchsolution
+*.builds
+*.dotCover
+*.dotTrace
+*.dotMemory
+_UpgradeReport_Files/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
+
+# Ignore JetBrains Rider files
+.idea/
+
+# End of file
